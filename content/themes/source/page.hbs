@@ -1,12 +1,16 @@
-{{!< default}}
-{{#post}}
-  <article class="post-wrapper">
+{{!< default}} {{#post}} <article class="post-wrapper">
+  {{#match @page.show_title_and_feature_image}}
+  <header class="post-header">
     <h2 class="post-title">{{{title}}}</h2>
-
-    <section class="post-full-content">
-        <div class="post-content">
-            {{content}}
-        </div>
-    </section>
+    {{#if feature_image}}
+    <img class="post-feature-image" src="{{img_url feature_image}}" alt="{{title}}">
+    {{/if}}
+  </header>
+  {{/match}}
+  <section class="post-full-content">
+    <div class="post-content">
+      {{content}}
+    </div>
+  </section>
   </article>
-{{/post}}
+  {{/post}}
