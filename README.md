@@ -1,6 +1,6 @@
 # [Ghost 5.X](https://github.com/TryGhost/Ghost) on [Heroku](https://heroku.com)
 
-> Notice: If you are getting a Heroku policy error please refer to this [discussion](https://github.com/thelovekesh/ghost-v4-on-heroku/discussions/24).
+> Notice: If you are getting a Heroku policy error please refer to this [discussion](https://github.com/f97/ghost-v4-on-heroku/discussions/24).
 
 Ghost is world's most popular modern publishing platform for creating a new media platform. It has been used by Apple, SkyNews, Buffer, OpenAI, and thousands more.
 You can visit the project's website at <a href="https://ghost.org/" target="_blank">https://ghost.org</a>, or read the docs on <a href="https://ghost.org/docs" target="_blank">https://ghost.org/docs</a>.
@@ -62,9 +62,9 @@ This repo has some blocks of open-source code. I have taken that code from the r
 ### Problems or need help?
 
 -   [Ask Question](https://ask.codebulbs.com/)
--   [Open an Issue](https://github.com/thelovekesh/ghost-v5-on-heroku/issues/new/)
--   [Use GitHub Discussions](https://github.com/thelovekesh/ghost-v5-on-heroku/discussions)
+-   [Open an Issue](https://github.com/f97/ghost-v6-on-heroku/issues/new/)
+-   [Use GitHub Discussions](https://github.com/f97/ghost-v6-on-heroku/discussions)
 
 ### License
 
-Released under the [MIT license](https://github.com/thelovekesh/ghost-v5-on-heroku/blob/main/LICENSE), just like the Ghost project itself.
+Released under the [MIT license](https://github.com/f97/ghost-v6-on-heroku/blob/main/LICENSE), just like the Ghost project itself.

@@ -1,14 +1,14 @@
 {
-    "name": "Deploy Ghost V5 on Heroku",
-    "description": "Deploy latest Ghost V5 on Heroku",
+    "name": "Deploy Ghost V6 on Heroku",
+    "description": "Deploy latest Ghost V6 on Heroku",
     "logo": "https://ghost.org/favicon.ico",
-    "repository": "https://github.com/thelovekesh/ghost-v5-on-heroku",
+    "repository": "https://github.com/f97/ghost-v6-on-heroku",
     "scripts": {
         "postdeploy": "bin/init-deployment"
     },
     "success_url": "/ghost",
     "addons": [
-        "jawsdb",
+        "jawsdb-maria",
         "mailgun",
         "cloudinary"
     ],

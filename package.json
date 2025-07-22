@@ -1,28 +1,29 @@
 {
-    "name": "ghost-v5-on-heroku",
+    "name": "ghost-v6-on-heroku",
     "version": "5.94.0",
-    "description": "Deploy latest ghost v5 on Heroku",
+    "description": "Deploy latest ghost v6 on Heroku",
     "main": "ghost/index.js",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/thelovekesh/ghost-v5-on-heroku.git"
+        "url": "git+https://github.com/f97/ghost-v6-on-heroku.git"
     },
     "keywords": [
         "ghost",
-        "ghost v5",
+        "ghost v6",
         "heroku"
     ],
-    "author": "thelovekesh <hi@thelovekesh.com>",
+    "author": "f97 <hi@f97.com>",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/thelovekesh/ghost-v5-on-heroku/issues"
+        "url": "https://github.com/f97/ghost-v6-on-heroku/issues"
     },
-    "homepage": "https://github.com/thelovekesh/ghost-v5-on-heroku#readme",
+    "homepage": "https://github.com/f97/ghost-v6-on-heroku#readme",
     "dependencies": {
         "casper": "github:TryGhost/Casper#main",
         "ghost-storage-adapter-s3": "^2.8.0",
         "ghost-storage-cloudinary": "^3.0.0",
         "lyra": "github:TryGhost/lyra#main",
+        "mysql": "^2.18.1",
         "mysql2": "2.3.3"
     },
     "devDependencies": {
