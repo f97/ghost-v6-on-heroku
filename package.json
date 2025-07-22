@@ -1,6 +1,6 @@
 {
     "name": "ghost-v6-on-heroku",
-    "version": "5.94.0",
+    "version": "6.0.0-alpha.2",
     "description": "Deploy latest ghost v6 on Heroku",
     "main": "ghost/index.js",
     "repository": {
@@ -12,7 +12,7 @@
         "ghost v6",
         "heroku"
     ],
-    "author": "f97 <hi@f97.com>",
+    "author": "f97 <hi@xiu.me>",
     "license": "MIT",
     "bugs": {
         "url": "https://github.com/f97/ghost-v6-on-heroku/issues"
@@ -28,6 +28,6 @@
     "scripts": {
         "start": "node ghost/index.js",
         "preinstall": "yarn config set ignore-engines true",
-        "postinstall": "node bin/install-ghost.mjs && yarn install --cwd ghost && bash bin/cloudinary.sh && bash bin/themes.sh"
+        "postinstall": "node bin/install-ghost.mjs && yarn install --cwd ghost && bash bin/cloudinary.sh && bash bin/themes.sh && bash bin/rewrite-content.sh"
     }
 }
