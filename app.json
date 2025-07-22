@@ -9,33 +9,16 @@
     "success_url": "/ghost",
     "addons": [
         "jawsdb-maria",
-        "mailgun",
-        "cloudinary"
+        "mailgun"
     ],
     "env": {
         "APP_PUBLIC_URL": {
             "description": "Complete URL of your app including https (You can change it later in Config Vars)",
             "value": "https://YOURAPPNAME.herokuapp.com"
         },
-        "S3_ACCESS_KEY_ID": {
-            "description": "(Optional) Set your AWS Access Key ID to enable S3 file storage. Defaults to Cloudinary storage",
-            "required": false
-        },
-        "S3_ACCESS_SECRET_KEY": {
-            "description": "AWS Access Secret Key, if using S3 file storage.",
-            "required": false
-        },
-        "S3_BUCKET_NAME": {
-            "description": "Name of your S3 bucket on AWS, if using S3 file storage.",
-            "required": false
-        },
-        "S3_BUCKET_REGION": {
-            "description": "Region of your S3 bucket on AWS, if using S3 file storage.",
-            "required": false
-        },
-        "S3_ASSET_HOST_URL": {
-            "description": "Optional custom CDN asset host url, if using S3 file storage.",
-            "required": false
+        "CLOUDINARY_URL": {
+            "description": "Cloudinary URL for image storage (You can change it later in Config Vars)",
+            "value": "cloudinary://YOUR_CLOUDINARY_API_KEY:YOUR_CLOUDINARY_API_SECRET@YOUR_CLOUD_NAME"
         }
     }
 }
