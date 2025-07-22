@@ -12,7 +12,10 @@
         "ghost v6",
         "heroku"
     ],
-    "author": "f97 <hi@xiu.me>",
+    "engines": {
+        "node": "22.x"
+    },
+    "author": "f97 <hi@xum.me>",
     "license": "MIT",
     "bugs": {
         "url": "https://github.com/f97/ghost-v6-on-heroku/issues"
