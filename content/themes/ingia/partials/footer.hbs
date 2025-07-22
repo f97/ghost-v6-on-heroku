@@ -1,0 +1,16 @@
+<footer>
+    {{#if @labs.subscribers}}
+    <section class="subscribe">
+        <div class="row">
+            <div class="twelve columns text-center">
+                <h4>Subscribe</h4>
+                {{subscribe_form placeholder="email address"}}
+            </div>
+        </div>
+    </section>
+    {{/if}}
+    <section class="copyright text-center">
+        Copyright &copy; {{date format="YYYY"}} <a href="{{@site.url}}" class="text-underline">{{@site.title}}</a>. All rights reserved.<br>
+        Published with <a href="http://ghost.org/" class="text-underline">Ghost</a>. Theme <a href="https://github.com/stefanbc/Ingia" class="text-underline">Ingia v1.0.0</a>.
+    </section>
+</footer>

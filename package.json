@@ -19,9 +19,7 @@
     },
     "homepage": "https://github.com/f97/ghost-v6-on-heroku#readme",
     "dependencies": {
-        "casper": "github:TryGhost/Casper#main",
         "ghost-storage-cloudinary": "^3.0.2",
-        "lyra": "github:TryGhost/lyra#main",
         "mysql": "^2.18.1"
     },
     "devDependencies": {

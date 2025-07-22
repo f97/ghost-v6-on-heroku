@@ -1,0 +1,34 @@
+{{!< default}}
+{{#post}}
+  <article class="post-wrapper">
+    <section class="author-meta">
+        {{#primary_author}}
+        <div class="row">
+            <div class="two columns">
+                <img class="author-image" src="{{img_url profile_image}}" alt="{{name}}">
+            </div>
+            <div class="ten columns">
+                <h4 class="author-name">
+                    <a href="{{url}}">{{name}}</a>
+                </h4>
+                <p>{{bio}}</p>
+            </div>
+        </div>
+        {{/primary_author}}
+    </section>
+
+    <div class="post-spacer"></div>
+
+    <section class="post-full-content">
+        <div class="post-content">
+            {{content}}
+        </div>
+    </section>
+
+    <div class="post-spacer"></div>
+
+    <section class="author-social">
+        {{> "social"}}
+    </section>
+  </article>
+{{/post}}

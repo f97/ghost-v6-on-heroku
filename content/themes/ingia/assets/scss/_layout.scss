@@ -1,0 +1,219 @@
+//layout
+.container {
+    max-width: 650px;
+}
+
+header {
+    margin: 5rem 0;
+
+    .logo-link {
+        img {
+            max-height: 60px;
+        }
+    }
+
+    nav {
+        border-top: 1px solid $color-1;
+        border-bottom: 1px solid $color-1;
+
+        ul {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+
+            li {
+                margin-bottom: 0;
+
+                &.nav-current {
+                    a {
+                        color: $color-2;
+                    }
+                }
+
+                a {
+                    text-transform: uppercase;
+                    font-size: 11px;
+                    font-weight: 400;
+                    letter-spacing: .2rem;
+                    margin: 0 20px;
+                    line-height: 6.5rem;
+                }
+            }
+        }
+    }
+}
+
+main {
+    .posts {
+        article {
+            margin-bottom: 3.5rem;
+
+            &.featured-post {
+                background: $color-5;
+                padding: 5rem;
+            }
+
+            .continue-reading {
+                text-decoration: underline;
+            }
+
+            h5 {
+                margin-bottom: 1rem;
+            }
+        }
+    }
+
+    .blog-navigation {
+        .page-number {
+            margin: 0 2rem;
+        }
+    }
+
+    .post-wrapper {
+        .post-media > img {
+            object-fit: cover;
+            max-width: 100%;
+        }
+
+        .post-meta {
+            margin-bottom: 3rem;
+        }
+
+        .post-full-content {
+            a {
+                text-decoration: underline;
+            }
+
+            img {
+                display: block;
+                margin: 0 auto;
+                max-width: 100%;
+            }
+
+            ul {
+                list-style-type: initial;
+            }
+
+            ul,
+            ol {
+                list-style-position: initial;
+                margin-left: 30px;
+                padding-left: 5px;
+                margin-bottom: 2.5rem;
+            }
+
+            code {
+                overflow: auto;
+            }
+
+            blockquote {
+                border-left: 4px solid $color-1;
+                margin-left: 2rem;
+                padding-left: 2rem;
+            }
+        }
+
+        .post-extra {
+            margin-top: 3rem;
+
+            .post-tags {
+                color: $color-3;
+            }
+
+            .post-share {
+                font-size: 1.2em;
+
+                a {
+                    color: $color-3;
+
+                    &:hover {
+                        color: $color-2;
+                    }
+                }
+            }
+        }
+
+        .author-social {
+            margin-top: 3rem;
+
+            .social a {
+                font-size: 1.7em;
+                margin: 0 .8rem;
+            }
+        }
+
+        .author-meta {
+            margin-top: 3rem;
+        }
+
+        aside.read-next {
+            margin-top: 3rem;
+
+            p {
+                margin: 0;
+            }
+        }
+    }
+
+    .author-meta {
+        .author-image {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            background-size: cover;
+            background-position: center center;
+            margin-right: 17px;
+        }
+
+        .author-name {
+            margin-bottom: 0;
+
+            small {
+                font-size: 60%;
+                margin-left: 15px;
+            }
+        }
+    }
+
+    .post-spacer {
+        display: block;
+        width: 100%;
+        height: 1rem;
+        z-index: 99;
+        border-bottom: 1px solid $color-1;
+
+        + .post-full-content {
+            margin-top: 20px;
+        }
+    }
+}
+
+footer {
+    margin: 3rem 0 6rem;
+    padding-top: 3rem;
+    border-top: 1px solid $color-1;
+
+    h4,
+    form {
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    form {
+        vertical-align: middle;
+        margin-left: 15px;
+
+        * {
+            margin: 0;
+        }
+
+        .form-group {
+            display: inline-block;
+        }
+    }
+
+    .copyright {
+        font-size: .8em;
+    }
+}

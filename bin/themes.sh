@@ -1,7 +1,4 @@
-themes=(
-	casper
-	lyra
-)
+themes=()
 
 for theme in "${themes[@]}"
 do
